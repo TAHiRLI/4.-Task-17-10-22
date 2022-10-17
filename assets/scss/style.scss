@@ -20,7 +20,7 @@ body{
         box-shadow: 0 5px 20px black;
         border-radius: 10px;
         overflow: hidden;
-      
+        
     }
     .themes{
         
@@ -48,4 +48,13 @@ body{
         
     }
 
+}
+
+@keyframes zoom {
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
 }

@@ -41,4 +41,22 @@ body {
 .container .themes .theme:hover {
   transform: translateY(-3px);
   box-shadow: 0 7px 30px black;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
 }/*# sourceMappingURL=style.css.map */
