@@ -42,6 +42,9 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 7px 30px black;
 }
+.container .themes .active {
+  box-shadow: 0 2px 10px white !important;
+}
 
 @-webkit-keyframes zoom {
   from {
